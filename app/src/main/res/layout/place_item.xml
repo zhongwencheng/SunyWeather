@@ -12,6 +12,7 @@
        android:layout_height="wrap_content"
        android:layout_margin="18dp"
        android:layout_gravity="center_vertical"
+       android:orientation="vertical"
        >
      <TextView
          android:id="@+id/placeName"
@@ -19,6 +20,7 @@
          android:layout_height="wrap_content"
          android:textColor="@color/black"
          android:textSize="20sp"
+         android:text="888888888"
          />
        <TextView
            android:id="@+id/placeAddress"
@@ -26,6 +28,7 @@
            android:layout_height="wrap_content"
            android:layout_marginTop="10dp"
            android:textColor="@color/black"
+           android:text="9999999"
            android:textSize="14sp" />
    </LinearLayout>
  </com.google.android.material.card.MaterialCardView>
